@@ -21,6 +21,17 @@ public class Estudiante {
             this.nombre = "Sin nombre";
         }
     }
+    // Edad
+    public int getEdad() {
+        return edad;
+    }
+    public void setEdad(int edad) {
+        if (edad >= 0) {
+            this.edad = edad;
+        } else {
+            this.edad = 0;
+        }
+    }
 }
 
 
