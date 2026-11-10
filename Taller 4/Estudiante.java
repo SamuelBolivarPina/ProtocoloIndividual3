@@ -32,7 +32,19 @@ public class Estudiante {
             this.edad = 0;
         }
     }
+    // Nota Promedio
+    public double getNotaPromedio() {
+        return notaPromedio;
+    }
+    public void setNotaPromedio(double notaPromedio) {
+        if (notaPromedio >= 0.0 && notaPromedio <= 5.0) {
+            this.notaPromedio = notaPromedio;
+        } else {
+            this.notaPromedio = 0.0;
+        }
+    }
 }
+
 
 
 
