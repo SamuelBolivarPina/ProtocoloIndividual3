@@ -25,4 +25,14 @@ public class Coche {
     public double getVelocidadMaxima() {
         return velocidadMaxima;
     }
+    // 2. Metodo para saber si el incremento es positivo +
+    public void acelerar(double incremento) {
+        if (incremento > 0) {
+            this.velocidadMaxima += incremento;
+            System.out.println("Aceleración exitosa. Nueva velocidad máxima: " + this.velocidadMaxima + " km/h");
+        } else {
+            System.out.println("Error: El incremento de velocidad debe ser positivo.");
+        }
+    }
 }
+
