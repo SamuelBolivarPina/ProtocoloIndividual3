@@ -1,4 +1,6 @@
 package taller5;
 class Producto {
-
+    String nombre;
+    double precio;
+    int stock;
 }
