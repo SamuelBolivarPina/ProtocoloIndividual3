@@ -10,4 +10,7 @@ class Producto {
         this.precio = precio;
         this.stock = stock;
     }
+    void mostrarInfo() {
+        System.out.println("Producto: " + nombre + " | Precio: $" + precio + " | Stock: " + stock);
+    }
 }
