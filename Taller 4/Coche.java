@@ -13,4 +13,16 @@ public class Coche {
             this.velocidadMaxima = 0;
         }
     }
+    // Métodos Get
+    public String getMarca() {
+        return marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public double getVelocidadMaxima() {
+        return velocidadMaxima;
+    }
 }
