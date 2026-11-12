@@ -8,4 +8,7 @@ public class Persona {
         this.nombre = nombre;
         this.edad = edad;
     }
+    public String getNombre(){
+        return nombre;
+    }
 }
