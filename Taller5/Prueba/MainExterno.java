@@ -8,7 +8,7 @@ public class MainExterno {
 
         // --- ERROR DE COMPILACIÓN ---
         // System.out.println(v.tipo);
-        // Java te arrojará un error indicando que 'tipo' no es visible,
+        // Java te arroja un error indicando que 'tipo' no es visible,
         // porque el modificador de paquete impide acceder a él desde el paquete 'pruebas'.
     }
 }
