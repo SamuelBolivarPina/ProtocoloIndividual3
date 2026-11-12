@@ -1,4 +1,4 @@
 package Vehiculos;
-class Vehiculo {
+public class Vehiculo {
     String tipo = "Transporte Terrestre";
 }
