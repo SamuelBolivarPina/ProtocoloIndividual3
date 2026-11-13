@@ -11,7 +11,7 @@ public class Persona {
     public String getNombre(){
         return nombre;
     }
-    public void setNombre(){
+    public void setNombre(String samuelBolivar){
         this.nombre = nombre;
     }
 }
