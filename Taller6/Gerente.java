@@ -1,7 +1,6 @@
-package Taller6;
-public class Gerente extends Empleado{
+public class Gerente extends Empleado {
     private String departamento;
-    public Gerente(String nombre,double salario){
+    public Gerente(String nombre, double salario, String departamento){
         super(nombre, salario); // llama a constructor de la clase padre (Empleado)
         this.departamento = departamento;
     }

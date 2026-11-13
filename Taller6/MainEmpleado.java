@@ -1,7 +1,6 @@
-package Taller6;
-public class MainEmpleado {
-    public static void main(String[] args){
-        Gerente gerente1 = new Gerente("Samuel Bolivar", 1.750.000,"Ingenieria de Software");
+public class MainEmpleado{
+    public static void main (String[] args){
+        Gerente gerente1 = new Gerente("Samuel Bolivar Piña",1750000,"Ingenieria de software");
         gerente1.mostrarInformacion();
     }
 }

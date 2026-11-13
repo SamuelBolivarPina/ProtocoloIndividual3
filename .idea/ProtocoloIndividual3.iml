@@ -4,8 +4,9 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Taller 4" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Taller5" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Taller6" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/Taller5" />
+      <excludeFolder url="file://$MODULE_DIR$/Taller5/Prueba/MainExterno.java" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
