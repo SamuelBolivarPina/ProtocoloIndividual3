@@ -1,11 +1,13 @@
+package Ejercicio1;
+
 public class Gerente extends Empleado {
     private String departamento;
     public Gerente(String nombre, double salario, String departamento){
-        super(nombre, salario); // llama a constructor de la clase padre (Empleado)
+        super(nombre, salario); // llama a constructor de la clase padre (Ejercicio1.Empleado)
         this.departamento = departamento;
     }
     public void mostrarInformacion(){
-        mostrarDetalles(); // accede a metodo mostrarDetalles de clase padre (Empleado)
+        mostrarDetalles(); // accede a metodo mostrarDetalles de clase padre (Ejercicio1.Empleado)
         System.out.println("Departamento: "+ departamento);
     }
 }
