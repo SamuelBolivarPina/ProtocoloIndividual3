@@ -17,6 +17,15 @@ public Banco(double saldoInicial){
     public double getSaldo(){
     return saldo;
     }
+    public void depositar(double monto){
+    if (monto > 0){
+        saldo += monto;
+        System.out.println("Depósito exitoso. Nuevo saldo: $" + saldo);
+    }
+    else {
+        System.out.println("Error: El monto a depositar debe ser positivo.");
+        }
+    }
 }
 
 
