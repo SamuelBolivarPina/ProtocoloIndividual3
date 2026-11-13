@@ -6,5 +6,7 @@ public class Empleado {
         this.nombre = nombre;
         this.salario = salario;
     }
-
+protected void mostrarDetalles(){
+    System.out.println("Nombre: "+ nombre + "Salario: " + salario);
+    }
 }
